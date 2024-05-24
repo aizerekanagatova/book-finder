@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book Finder</h1>
+        <form class="flex" id="submit">
+          <input type="text" id="search" placeholder="Ищите книгу которая вам нравится">
+          <button class="search-btn" type="submit">Искать</button>
+        </form>
+        <div class="flex">
+          <button class="random-btn">Рандомная книга</button>
+          <div class="genres">
+            <button class="show-all-btn">Все книги</button>
+
+            <button class="genre-btn" id="thriller">Романтика</button>
+            <button class="genre-btn" id="mystery">Фэнтези</button>
+            <button class="genre-btn" id="autobiography">Триллер</button>
+          </div>
+        </div>
+        <div id="result-heading"></div>
+        <div id="books" class="books"></div>
+        <div id="single-book"></div>
+      </div>
+      
+
+  <script src="script.js"></script>
+</body>
+</html>
